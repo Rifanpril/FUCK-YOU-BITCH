@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hadiah Spesial 🎁</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+  img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    display: block;
+  }
+  #err {
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    display: none;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+  <img id="gambar" src="01258201db1a7219c10861689694f55.jpg" alt="img">
+  <div id="err">Fuck<br>You.</div>
+  <script>
+    const img = document.getElementById('gambar');
+    img.onerror = function() {
+      img.style.display = 'none';
+      document.getElementById('err').style.display = 'block';
+    }
+  </script>
+  <!-- Default Statcounter code for e.g. Comunity project
+https://rifanpril.github.io/lelelellee/ -->
+<script type="text/javascript">
+var sc_project=13208172; 
+var sc_invisible=1; 
+var sc_security="1cb46e06"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - Statcounter" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/13208172/0/1cb46e06/1/"
+alt="Web Analytics Made Easy - Statcounter"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
+</body>
+</html>
